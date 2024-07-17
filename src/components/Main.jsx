@@ -5,8 +5,8 @@ export const Main = () => {
   return (
     <section>
         <picture>
-            <source media='(max-width:639px' srcSet={imgMobile}/>
-            <source media='(min-width:640px' srcSet={imgDesktop}/>
+            <source media='(max-width:639px)' srcSet={imgMobile}/>
+            <source media='(min-width:640px)' srcSet={imgDesktop}/>
             <img src={imgMobile} alt="background header"></img>
         </picture>
         <p className='absolute top-[144px] w-[327px] font-Fraunces text-[40px] uppercase tracking-[6.25px] text-White text-center left-0 right-0 mx-auto sm:w-[600px]'>We are creatives</p>
